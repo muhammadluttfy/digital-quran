@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.centered-modal .min-h-full {
+  align-items: center !important;
+  min-height: 100% !important;
+}
+
+.customize-select-menu span {
+  font-size: 14px !important;
+}
