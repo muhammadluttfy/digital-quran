@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       clientVersion: pkg.version,
-      MODE: process.env.MODE,
       BASE_URL: process.env.BASE_URL,
       BASE_API_URL: process.env.BASE_API_URL
     }
@@ -19,7 +18,8 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      Poppins: [400, 500, 600, 700]
+      Poppins: [400, 500, 600, 700],
+      Amiri: [400, 700],
     },
     useStylesheet: true
   },

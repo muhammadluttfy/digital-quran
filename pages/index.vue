@@ -137,17 +137,19 @@ useSeoMeta({
           </p>
         </div>
   
-        <UButton label="Get Started" color="light" :ui="{rounded: 'rounded-full'}" class="px-5 py-2.5 bg-[#FAF6EB] text-[#374151]">
-          <template #trailing>
-            <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="7.5" cy="10" r="7.5" fill="currentColor" fill-opacity="0.11" />
-              <path d="M8.58331 10L23.625 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                stroke-linejoin="round" />
-              <path d="M18.0833 4.4585L23.625 10.0002L18.0833 15.5418" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </template>
-        </UButton>
+        <NuxtLink to="/categories">
+          <UButton label="Get Started" color="light" size="xl" :ui="{rounded: 'rounded-full'}" class="px-5 py-2.5 bg-[#FAF6EB] text-[#374151]">
+            <template #trailing>
+              <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.5" cy="10" r="7.5" fill="currentColor" fill-opacity="0.11" />
+                <path d="M8.58331 10L23.625 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M18.0833 4.4585L23.625 10.0002L18.0833 15.5418" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </template>
+          </UButton>
+        </NuxtLink>
       </div>
     </div>
   </div>
