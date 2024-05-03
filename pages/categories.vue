@@ -7,9 +7,9 @@ useSeoMeta({
 <template>
   <div class="p-6">
     <!-- START::card section -->
-    <section class="mb-11">
+    <!-- <section class="mb-11">
       <LatestReadCardComponent />
-    </section>
+    </section> -->
     <!-- END::card section -->
 
     <!-- START:: categories section -->
